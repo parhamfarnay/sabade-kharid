@@ -14,9 +14,11 @@ function Card({ data }) {
         <Link to={`/products/${id}`}>
           <TbListDetails />
         </Link>
-        <button>
-          <TbShoppingBagCheck />
-        </button>
+        <div>
+          <button>
+            <TbShoppingBagCheck />
+          </button>
+        </div>
       </div>
     </div>
   );
